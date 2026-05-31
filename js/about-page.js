@@ -36,7 +36,18 @@
           return data;
         })
         .catch(function () {
-          if (C()) C().showError(tr("about.loadError"));
+          return fetch("/seo/portfolio.json")
+            .then(function (r) {
+              if (!r.ok) throw new Error("seo_fallback_failed");
+              return r.json();
+            })
+            .then(function (data) {
+              window.PortfolioAbout.render(data);
+              return data;
+            })
+            .catch(function () {
+              if (C()) C().showError(tr("about.loadError"));
+            });
         });
     }
   };

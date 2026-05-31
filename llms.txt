@@ -1,0 +1,35 @@
+# Cristianto Tri Arthurito
+
+> IT Support · Full Stack Development · Networking & Cybersecurity — Bandung, Indonesia
+
+## Official portfolio
+- Website: https://xcrisarthur.github.io/
+- About: https://xcrisarthur.github.io/about.html
+- LinkedIn: https://www.linkedin.com/in/cristiantotriarthurito/
+- GitHub: https://github.com/xcrisarthur
+- Email: xcrisarthur@gmail.com
+
+## Summary
+Saya merancang dan mengoperasikan sistem yang stabil serta aman — mulai dari infrastruktur jaringan, pengembangan web, hingga keamanan siber — agar operasional tim dan bisnis berjalan tanpa hambatan teknis.
+
+## About
+Saya Cristianto Tri Arthurito (Arthur), lulusan Sarjana Teknik Informatika dari Universitas Kristen Maranatha dengan predikat Cum Laude (IPK 3,67). Berfokus pada pengembangan web, dukungan infrastruktur TI, dan keamanan siber, saya terbiasa bekerja lintas fungsi—mulai dari pemrograman dan integrasi sistem, pengelolaan jaringan, hingga technical support operasional.
+
+Saya mengutamakan solusi yang stabil, aman, dan mudah dipakai pengguna, serta terus mengikuti perkembangan teknologi untuk mendukung efisiensi bisnis dan digitalisasi proses.
+
+## Experience (selected)
+- **Staff IT — Programmer, Network Engineer & Technical Support** @ PT Massindo Karya Prima (Okt 2025 – Sekarang)
+- **Staff IT — Programmer & Technical Support** @ PT Yakin Sukses Indonesia (Feb 2025 – Mei 2025)
+- **Trainee Bootcamp — Red Team** @ Cyberwolves Academy #5 (Red Team) (Apr 2025 – Jun 2025)
+- **Full Stack Developer (Magang)** @ PT Solusi Tiga Selaras (Nov 2024 – Jan 2025)
+- **IT Support** @ Universitas Kristen Maranatha (Jul 2022 – Jan 2025)
+- **Web Developer** @ WIT (Startup, Bandung) (Sep 2023 – Jun 2024)
+
+## Projects
+- **Super App ERP**: Sistem ERP terintegrasi untuk operasional perusahaan — modul keuangan, inventori, HR, dan laporan bisnis dalam satu platform.
+- **POS Restoran**: Aplikasi point of sale untuk operasional restoran — pesanan meja, dapur, pembayaran, dan ringkasan penjualan harian.
+- **POS Retail**: Kasir dan manajemen stok untuk toko retail — barcode, transaksi cepat, dan laporan penjualan per shift.
+
+## Machine-readable
+- JSON: https://xcrisarthur.github.io/seo/portfolio.json
+- Sitemap: https://xcrisarthur.github.io/sitemap.xml
