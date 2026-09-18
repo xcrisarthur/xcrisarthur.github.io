@@ -11,6 +11,8 @@
   }
 
   function mediaUrl(id) {
+    var s = String(id || "");
+    if (s.charAt(0) === "/" || s.indexOf("http://") === 0 || s.indexOf("https://") === 0) return s;
     return apiBase() + "/api/media/" + encodeURIComponent(id);
   }
 

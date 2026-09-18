@@ -50,11 +50,24 @@
     return !!(profile.email || profile.phone || profile.linkedin || profile.github);
   }
 
+  function mailtoHref(email) {
+    var subject = tr("cta.email.subject");
+    var body = tr("cta.email.body");
+    return (
+      "mailto:" +
+      email +
+      "?subject=" +
+      encodeURIComponent(subject) +
+      "&body=" +
+      encodeURIComponent(body)
+    );
+  }
+
   function renderCta(p, containerId) {
     var actions = document.getElementById(containerId || "cta-actions");
     if (!actions || !p) return;
     var html = "";
-    if (p.email) html += '<a class="btn btn--primary" href="mailto:' + esc(p.email) + '">' + esc(tr("cta.email")) + "</a>";
+    if (p.email) html += '<a class="btn btn--primary" href="' + esc(mailtoHref(p.email)) + '">' + esc(tr("cta.email")) + "</a>";
     if (p.linkedin) html += '<a class="btn btn--ghost" href="' + esc(p.linkedin) + '" target="_blank" rel="noopener noreferrer">LinkedIn</a>';
     if (p.github) html += '<a class="btn btn--ghost" href="' + esc(p.github) + '" target="_blank" rel="noopener noreferrer">GitHub</a>';
     if (p.phone) html += '<a class="btn btn--ghost" href="tel:' + esc(p.phone) + '">' + esc(p.phone) + "</a>";

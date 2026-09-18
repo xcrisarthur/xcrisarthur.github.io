@@ -56,6 +56,9 @@
       "about.teaser.link": "Baca profil lengkap →",
       "about.teaser.empty": "Profil sedang diperbarui.",
       "cta.email": "Kirim email",
+      "cta.email.subject": "Perkenalan — ingin berdiskusi lebih lanjut",
+      "cta.email.body":
+        "Halo Arthur,\n\nSaya menemukan portofolio Anda dan ingin berkenalan serta berdiskusi lebih lanjut.\n\nSaya tertarik membahas kemungkinan kolaborasi, proyek, atau konsultasi TI.\n\nNama:\nPerusahaan / organisasi:\nKeperluan:\n\nTerima kasih. Saya menantikan balasan Anda.\n\nSalam,\n[Nama Anda]",
       "cta.empty":
         "Informasi kontak belum tersedia. Silakan hubungi melalui jaringan profesional atau lengkapi data kontak melalui panel admin.",
       "error.load": "Gagal memuat portfolio. Pastikan API berjalan di server ini.",
@@ -149,6 +152,9 @@
       "about.teaser.link": "Read full profile →",
       "about.teaser.empty": "Profile is being updated.",
       "cta.email": "Email me",
+      "cta.email.subject": "Hello — let's get in touch",
+      "cta.email.body":
+        "Hello Arthur,\n\nI came across your portfolio and would like to get in touch.\n\nI'm interested in discussing a possible collaboration, project, or IT consultation.\n\nName:\nCompany / organization:\nWhat I'd like to talk about:\n\nThank you — I look forward to hearing from you.\n\nBest regards,\n[Your name]",
       "cta.empty":
         "Contact details are not available yet. Please reach out via professional networks or add email & LinkedIn through the admin panel.",
       "error.load": "Failed to load portfolio. Make sure the API is running on this server.",
@@ -242,6 +248,9 @@
       "about.teaser.link": "プロフィール全文を読む →",
       "about.teaser.empty": "プロフィールを更新中です。",
       "cta.email": "メールを送る",
+      "cta.email.subject": "ご挨拶 — ご連絡のお願い",
+      "cta.email.body":
+        "Arthur様\n\nポートフォリオを拝見し、ご連絡いたしました。\n\nプロジェクト、技術協力、またはITのご相談についてお話しできれば幸いです。\n\nお名前：\n会社・組織：\nご用件：\n\nご返信をお待ちしております。\n\nよろしくお願いいたします。\n[お名前]",
       "cta.empty":
         "連絡先情報が未設定です。プロフェッショナルネットワーク経由でご連絡いただくか、管理画面からメール・LinkedInを追加してください。",
       "error.load": "ポートフォリオの読み込みに失敗しました。APIが稼働しているか確認してください。",

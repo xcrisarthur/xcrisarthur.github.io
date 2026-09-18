@@ -9,9 +9,9 @@
 
   function getMode() {
     try {
-      return localStorage.getItem(KEY) || "dark";
+      return localStorage.getItem(KEY) || "light";
     } catch {
-      return "dark";
+      return "light";
     }
   }
 
@@ -40,7 +40,7 @@
   }
 
   function cycle() {
-    var order = ["dark", "light", "system"];
+    var order = ["light", "dark", "system"];
     var cur = getMode();
     var next = order[(order.indexOf(cur) + 1) % order.length];
     try {
